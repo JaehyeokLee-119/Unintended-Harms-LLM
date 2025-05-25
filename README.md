@@ -63,7 +63,8 @@ The HEx-PHI dataset must be downloaded separately due to license requirements. P
 ### VIM Training
 bash scripts/train_vim.sh
 
-#### Benign Fine-tuning
+### Fine-tuning on benign datasets for comparison
+### e.g.,) alpaca, dolly, grammar, samsum 
 bash scripts/benign_train.sh
 ```
 
