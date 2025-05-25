@@ -95,6 +95,3 @@ To use gpt-4o evaluation, enter your OPENAI_API_KEY to OPENAI_API_KEY in ./utils
 
 ## Citation
 To be available
-
-## Contact
-For questions or issues, please contact [contact information] or open an issue on this repository. 
