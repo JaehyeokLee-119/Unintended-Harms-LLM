@@ -11,7 +11,7 @@ This project investigates the unintended harmful behaviors that can emerge from 
 - Python 3.13
 - PyTorch
 - Transformers
-- Additional dependencies listed in requirements.txt (if available)
+- Additional dependencies listed in requirements.txt
 
 ## Data Setup
 
