@@ -85,15 +85,13 @@ bash scripts/ICL_inference.sh
 
 ## Evaluation
 
-The project includes multiple evaluation approaches:
-- **Bias Scoring**: Multiple bias assessment methods (`bias_score_0.py`, `bias_score_1.py`, `bias_score_2.py`)
-- **GPT-4 Evaluation**: Automated evaluation using GPT-4 (`gpt4_eval.py`)
-- **RealToxicityPrompts**: Evaluation on toxic prompt datasets (`eval_RTP.py`)
-- **HolisticBiasR**: Comprehensive bias evaluation (`eval_HBR.py`)
-- **Regard-based Evaluation**: Evaluation based on regard metrics (`eval_by_regard.py`)
+You can find scripts for evaluation in ```scripts/inference_evaluation.sh```
+
+- **RealToxicityPrompts**: Evaluation of RealToxicityPrompts results using Google PerspectiveAPI (`evaluate/eval_RTP.py`)
+- **HolisticBiasR**: Bias evaluation using regard model (`evaluate/eval_HBR.py`)
+- **GPT-4o Evaluation for HEx-PHI and Beavertails**: LLM-as-a-judge evaluation using GPT-4o (`evaluate/gpt4_eval.py`)
 
 To use gpt-4o evaluation, enter your OPENAI_API_KEY to OPENAI_API_KEY in ./utils/constants.py
-You can find evaluation scripts in ```scripts/inference_evaluation.sh```
 
 ## Citation
 To be available
