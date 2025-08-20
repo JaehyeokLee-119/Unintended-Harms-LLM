@@ -1,6 +1,6 @@
 # Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights
 
-This repository contains the implementation for the paper "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights" accepted to ACL 2025.
+This repository contains the implementation for the paper "[Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/)" accepted to ACL 2025 (oral + panel discussion).
 
 ## Overview
 
